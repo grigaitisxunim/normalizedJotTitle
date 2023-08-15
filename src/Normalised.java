@@ -11,7 +11,6 @@ public class Normalised {
         jobTitles.put("JavaScript", "Software Engineer");
         jobTitles.put("Chief Accountant", "Accountant");
         jobTitles.put("Accountant", "Accountant");
-        // adicionar mais cargos e seus respectivos padrões aqui
     }
 
     public static String normalise(String jobTitle) {
