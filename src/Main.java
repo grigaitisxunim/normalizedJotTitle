@@ -5,14 +5,13 @@ public class Main {
        Normalised n = new Normalised();
       String normalisedTitle = n.normalise(jt);
       System.out.println(normalisedTitle);
-//output normalisedTitle
+       
         jt = "C# engineer";
        normalisedTitle = n.normalise(jt);
         System.out.println(normalisedTitle);
-//output normalisedTitle
+      
         jt = "Chief Accountant";
        normalisedTitle = n.normalise(jt);
         System.out.println(normalisedTitle);
-//output normalisedTitle
     }
 }
